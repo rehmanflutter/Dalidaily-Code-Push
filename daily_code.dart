@@ -8,3 +8,9 @@ void main() {
 void greet(String name) {
   print('Hello, $name! Welcome to Day 1.');
 }
+// Day 2 - Add Day model
+class Day {
+  final int number;
+  final String note;
+  Day(this.number, this.note);
+}
