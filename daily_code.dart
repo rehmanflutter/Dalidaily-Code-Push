@@ -14,3 +14,8 @@ class Day {
   final String note;
   Day(this.number, this.note);
 }
+// Day 3 - List of days
+final List<Day> days = [
+  Day(1, 'Started daily code push'),
+  Day(2, 'Added Day model'),
+];
