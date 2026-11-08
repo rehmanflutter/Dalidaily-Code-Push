@@ -19,3 +19,20 @@ final List<Day> days = [
   Day(1, 'Started daily code push'),
   Day(2, 'Added Day model'),
 ];
+
+// Day 4 - Add addDay function
+void addDay(int number, String note) {
+  days.add(Day(number, note));
+  print('Added Day $number: $note');
+}
+
+void addDay3() {
+  addDay(3, 'Added list of days');
+}
+
+
+
+
+
+
+
