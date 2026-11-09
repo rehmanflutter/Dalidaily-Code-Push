@@ -30,9 +30,11 @@ void addDay3() {
   addDay(3, 'Added list of days');
 }
 
-
-
-
-
-
-
+// Day 5 - Print all days
+void printAll() {
+  print('All days:');
+  for (final day in days) {
+    print('Day ${day.number}: ${day.note}');
+  }
+  print('Total days: ${days.length}');
+}
