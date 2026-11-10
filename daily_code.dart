@@ -38,3 +38,12 @@ void printAll() {
   }
   print('Total days: ${days.length}');
 }
+// Day 6 - Find a day by number
+Day? findDay(int number) {
+  for (final day in days) {
+    if (day.number == number) {
+      return day;
+    }
+  }
+  return null;
+}
