@@ -47,3 +47,11 @@ Day? findDay(int number) {
   }
   return null;
 }
+// Day 7 - Count total days logged
+int countDays() {
+  return days.length;
+}
+
+void printCount() {
+  print('Total days logged: ${countDays()}');
+}
