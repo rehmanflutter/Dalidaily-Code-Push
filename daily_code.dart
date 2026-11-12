@@ -55,3 +55,13 @@ int countDays() {
 void printCount() {
   print('Total days logged: ${countDays()}');
 }
+
+// Day 8 - Remove a day by number
+void removeDay(int number) {
+  days.removeWhere((day) => day.number == number);
+  print('Removed Day $number');
+}
+
+void removeDay7() {
+  removeDay(7);
+}
