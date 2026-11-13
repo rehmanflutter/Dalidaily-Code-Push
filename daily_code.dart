@@ -65,3 +65,20 @@ void removeDay(int number) {
 void removeDay7() {
   removeDay(7);
 }
+
+// Day 9 - Update a day's note
+void updateDay(int number, String note) {
+  final index = days.indexWhere((day) => day.number == number);
+  if (index != -1) {
+    days[index] = Day(number, note);
+    print('Updated Day $number: $note');
+  }
+}
+
+
+
+
+
+
+
+
