@@ -19,19 +19,3 @@ Turn a prompt or topic into a documentary video.
 ## Screenshots
 
 Website screenshots will be added here.
-
-## Daily code
-
-Daily code push — 6 to 10 lines of Dart code added every day in `daily_code.dart`.
-
-- Day 1: Dart starter — main() + greet()
-- Day 2: Day model (added via PR #1, merged without review)
-- Day 3: List of days
-- Day 4: addDay()
-- Day 5: printAll()
-- Day 6: findDay()
-- Day 7: countDays()
-- Day 8: removeDay()
-- Day 9: updateDay()
-
-Day 10 coming next. Only `daily_code.dart` is updated daily — no other files.
