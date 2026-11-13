@@ -74,11 +74,3 @@ void updateDay(int number, String note) {
     print('Updated Day $number: $note');
   }
 }
-
-
-
-
-
-
-
-
