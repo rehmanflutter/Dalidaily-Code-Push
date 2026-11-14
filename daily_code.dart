@@ -74,3 +74,15 @@ void updateDay(int number, String note) {
     print('Updated Day $number: $note');
   }
 }
+
+// Day 10 - Search days by keyword
+List<Day> searchDays(String keyword) {
+  return days
+      .where((day) => day.note.toLowerCase().contains(keyword.toLowerCase()))
+      .toList();
+}
+
+void printSearch(String keyword) {
+  final results = searchDays(keyword);
+  print('Found ${results.length} day(s) matching "$keyword"');
+}
